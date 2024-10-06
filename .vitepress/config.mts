@@ -8,7 +8,7 @@ export default defineConfig({
   title: "我的笔记",
   lang:"zh",
   description: "我的笔记",
-  lastUpdated:true,
+  //lastUpdated:true,
   head:[
     ['link',{ rel: 'icon', href: '/public/blog.png' }]
   ],
