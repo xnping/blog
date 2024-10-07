@@ -4,18 +4,18 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
 
   base:'/blog/',
-
+  
   title: "我的笔记",
   lang:"zh",
   description: "我的笔记",
   //lastUpdated:true,
   head:[
-    ['link',{ rel: 'icon', href: '/public/blog.png' }]
+    ['link',{ rel: 'icon', href: '/blog.png' }]
   ],
   themeConfig: {
     //自己添加--------------------
     logo: './blog.png',
-
+    
     footer:{
           message: '我的笔记',
           copyright: 'Copyright © 2020-2024'
