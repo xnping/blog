@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   base:'/blog/',
   title: "我的笔记",
-  head:[['link',{ rel: 'icon', href: '/blog/public/headadd.ico' }]],
+  head:[['link',{ rel: 'icon', href: '/blog/head.png' }]],
   lang:"zh",
   description: "我的笔记",
   //lastUpdated:true,
