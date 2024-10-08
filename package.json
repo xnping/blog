@@ -1,4 +1,10 @@
 {
+  "overrides": {
+    "nuxt": {
+      "rollup": "npm:@rollup/wasm-node@latest"
+    }
+  },
+
   "devDependencies": {
     "vitepress": "^1.3.4",
     "rollup":"npm:@rollup/wasm-node"
@@ -8,10 +14,7 @@
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",
     "docs:preview": "vitepress preview"
-  },
-  "overrides": {
-    "vite": {
-      "rollup": "npm:@rollup/wasm-node"
-    }
   }
+  
+ 
 }
