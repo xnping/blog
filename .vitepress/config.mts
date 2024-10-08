@@ -2,12 +2,12 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base:'/blog/',
+  //base:'/blog/',
   title: "我的笔记",
   head:[['link',{ rel: 'icon', href: '/blog/head.png' }]],
   lang:"zh",
   description: "我的笔记",
-  //lastUpdated:true,
+  lastUpdated:true,
 
   themeConfig: {
     //自己添加--------------------
