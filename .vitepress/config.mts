@@ -8,6 +8,11 @@ export default defineConfig({
   lang:"zh",
   description: "我的笔记",
   lastUpdated:true,
+  /*
+  sitemap:{
+    hostname:'http://blog.sphcs.top/blog/'
+  },
+  */
 
   themeConfig: {
     //自己添加--------------------
@@ -40,16 +45,17 @@ export default defineConfig({
 
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: '首页',      link: '/' },
+      { text: '笔记',  link: '/page/' },
+      { text:'下载资料',   link:'http://blog.sphcs.top/download/'}
     ],
    
     sidebar: [
       {
-        text: 'Examples',
+        text: '笔记目录',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          //{ text: 'jenkins安装', link: '/page/jenkins' },
+          { text: 'docker安装', link: '/page/Docker' }
         ]
       }
     ],

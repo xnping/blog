@@ -12,11 +12,11 @@ hero:
     alt: 我的笔记
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: 打开笔记
+      link: /page/
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 下载资料
+      link: 'http://blog.sphcs.top/download/'
 
 features:
   - title: Feature A
