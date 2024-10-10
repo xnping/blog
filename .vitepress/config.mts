@@ -54,7 +54,7 @@ export default defineConfig({
       {
         text: '笔记目录',
         items: [
-          //{ text: 'jenkins安装', link: '/page/jenkins' },
+          { text: 'jenkins安装', link: '/page/jenkins' },
           { text: 'docker安装', link: '/page/Docker' }
         ]
       }
