@@ -14,13 +14,7 @@ export default defineConfig({
       `var _hmt = _hmt || [];(function() {var hm = document.createElement("script");
       hm.src = "https://hm.baidu.com/hm.js?21fa6d7e111b754cbff22d98b092d256";
       var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(hm, s);})();`
-    ],
-    ['script',
-      {},
-      `var _hmt = _hmt || [];(function() {var hm = document.createElement("script");
-      hm.src = "https://hm.baidu.com/hm.js?1e674676bd138e51a60835d48b547bcf";
-      var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(hm, s);})();`
-    ],
+    ]
 ],
 
   /*
