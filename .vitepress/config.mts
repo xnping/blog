@@ -4,10 +4,19 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   base:'/blog/',
   title: "我的笔记",
-  head:[['link',{ rel: 'icon', href: '/blog/head.png' }]],
   lang:"zh",
   description: "我的笔记",
   lastUpdated:true,
+  head:[
+    ['link',{ rel: 'icon', href: '/blog/head.png' }],
+    ['script',
+      {},
+      `var _hmt = _hmt || [];(function() {var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?21fa6d7e111b754cbff22d98b092d256";
+      var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(hm, s);})();`
+  ],
+],
+
   /*
   sitemap:{
     hostname:'http://blog.sphcs.top/blog/'
@@ -47,7 +56,7 @@ export default defineConfig({
     nav: [
       { text: '首页',      link: '/' },
       { text: '笔记',  link: '/page/' },
-      { text:'下载资料',   link:'http://blog.sphcs.top/download/'}
+      { text:'下载资料',   link:'https://blog.sphcs.top/download/'}
     ],
    
     sidebar: [
